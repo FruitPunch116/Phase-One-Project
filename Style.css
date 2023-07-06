@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+/* #login-form{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 230, 0); 
+    height: 14%;
+    width: 14%;
+} */
+
+#log-form {
+    display: flex;
+    justify-content: center;
+    width: 15px;
+    min-height: 15px;
+}
+
+#interface {
+    background-color: #EEE;
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+#account-details {
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 66%;
+    gap: 2%;
+}
+
+#debit {
+    /* display: flex; */
+    background: #fff;
+    width: 100%;
+    height: 30%;
+}
+
+#savings {
+    background-color: #fff;
+    justify-content: center;
+    height: 15%;
+}
+
+#credit-card {
+    background-color: #fff;
+    width: 100%;
+    height: 15%;
+}
+
+#account-activity {
+    background-color:#fff;
+    width: 650px;
+    height: 30%;
+}
+
+#menu-options {
+    background-color: #0068B6;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#options {
+    color: #EEE;
+    font-family: "Open Sans Regular";
+    font-size: 14px;
+    display: flex;
+    gap: 15px;
+}
+
+.log-out {
+    color: #EEE;
+    font-family: "Open Sans Regular";
+    font-size: 12px;
+    display: flex;
+}
+
+#account-extras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2%;
+}
+
+#extra-management {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 50%;
+}
+
+#extra-products {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
